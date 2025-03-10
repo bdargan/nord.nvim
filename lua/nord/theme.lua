@@ -488,6 +488,20 @@ theme.loadPlugins = function()
 		GitSignsDeleteLn = { fg = nord.nord11_gui }, -- diff mode: Deleted line |diff.txt|
 		GitSignsCurrentLineBlame = { fg = nord.nord3_gui_bright, style = bold },
 
+				    -- Snacks.nvim Picker Colors
+		-- Snacks.nvim Picker Colors
+		SnacksPicker = { fg = nord.nord4_gui, bg = nord.nord1_gui },
+		SnacksPickerBorder = { fg = nord.nord8_gui, bg = nord.nord1_gui },
+		SnacksPickerTitle = { fg = nord.nord8_gui, bold = true },
+		SnacksPickerSearch = { fg = nord.nord14_gui, bg = nord.nord1_gui },
+		SnacksPickerCursor = { fg = nord.nord13_gui, bg = nord.nord2_gui },
+		SnacksPickerSelected = { fg = nord.nord4_gui, bg = nord.nord2_gui },
+		SnacksPickerMatch = { fg = nord.nord9_gui, bold = true },
+		SnacksPickerIcon = { fg = nord.nord7_gui },
+		SnacksPickerKey = { fg = nord.nord15_gui },
+		SnacksPickerInfo = { fg = nord.nord10_gui, italic = true },
+		SnacksPickerHelp = { fg = nord.nord9_gui, bg = nord.nord1_gui },
+				
 		-- Telescope
 		TelescopePromptBorder = { fg = nord.nord4_gui },
 		TelescopeResultsBorder = { fg = nord.nord4_gui },
